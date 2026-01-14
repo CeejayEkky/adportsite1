@@ -46,7 +46,7 @@ export default function resume() {
   const experiences = [
     {
       Date: "2025 - Present",
-      role: "Full Stack / AI Developer",
+      role: "Full Stack (MERN) / AI Developer",
       company: "JASAT Tech Inc."
     },
     {
@@ -56,13 +56,13 @@ export default function resume() {
     },
     {
       Date: "2017 - 2020",
-      role: "Game Developer (Scratch3.0/Unity)",
-      company: "My persona💯"
+      role: "Data Analyst (Intern)",
+      company: "Database Collection"
     },
     {
       Date: "2014 - 2016",
-      role: "Data Analyst (Intern)",
-      company: "Database Collection"
+      role: "Game Developer (Scratch3.0)",
+      company: "My persona💯"
     },
   ];
 

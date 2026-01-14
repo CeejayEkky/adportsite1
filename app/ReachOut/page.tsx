@@ -6,7 +6,7 @@ export default function Contact() {
     <div className="px-[8%] lg:px-[8%] py-15 text-white">
         <div className="grid lg:grid-cols-2 gap-12 w-full">
             <div className="bg-gray-500/5 p-8 rounded-xl shadow-lg">
-                <h2 className="text-4xl font-unbounded font-normal spancol mb-4 text-nowrap">
+                <h2 className="text-4xl font-unbounded font-normal spancol mb-4">
                     Reach Out and Connect
                 </h2>
                 <p className="text-sm text-gray-400 my-8">
