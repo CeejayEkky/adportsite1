@@ -14,7 +14,7 @@ export default function Header() {
     { value: 87, label: "Code\nCommits" },
   ];
 
-  const countRefs = useRef([]);
+  const countRefs = useRef<(HTMLHeadingElement | null)[]>([]);
 
   useEffect(() => {
     countRefs.current.forEach((el, i) => {
@@ -28,10 +28,9 @@ export default function Header() {
         } else {
           console.log(countUp.error);
         }
-        // 1:05:10
       }
     });
-  }, []);
+  }, [statsData]);
 
   return (
     <header className="heel text-white py-2 relative">
